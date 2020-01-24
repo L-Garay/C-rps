@@ -18,9 +18,7 @@ namespace testing
       Console.Clear();
       Console.WriteLine("Welcome, what is your name?");
       string name = Console.ReadLine();
-      Console.WriteLine($"Hello {name}! My name is Mr. Roboto and I am your opponent today.");
-      Console.WriteLine("Are you ready to play a game? What game you might ask, why only the bestest game in the whole world; Rock, Paper, Scissors! Once we start playing, type anything other than 'rock', 'paper', or 'scissors' and it will exit the game.");
-      Console.WriteLine("Once you're ready, press the SpaceBar.");
+      Console.WriteLine($"Hello {name}! My name is Mr. Roboto and I am your opponent today. Are you ready to play a game? What game you might ask, why only the bestest game in the whole world; Rock, Paper, Scissors! Once we start playing, type anything other than 'rock', 'paper', or 'scissors' and it will exit the game. Once you're ready, press the SpaceBar.");
       ConsoleKeyInfo SecondKey = Console.ReadKey();
       if (SecondKey.Key == ConsoleKey.Spacebar)
       {
